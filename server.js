@@ -31,7 +31,7 @@ app.get('/website-needs-seo', function(req, res){
   res.sendFile(path.join(__dirname, 'views/webseo.html'));
 });
 app.get('/website-without-seo', function(req, res){
-  res.sendFile(path.join(__dirname, 'views/withSEO.html'));
+  res.sendFile(path.join(__dirname, 'views/withoutSEO.html'));
 });
 app.get('/seo-ethics', function(req, res){
   res.sendFile(path.join(__dirname, 'views/SEOethics.html'));
