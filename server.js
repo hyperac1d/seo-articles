@@ -24,6 +24,18 @@ app.get('/mobile-responsive-tools', function(req, res){
 app.get('/hyperlinking-backlinking', function(req, res){
   res.sendFile(path.join(__dirname, 'views/backlinking.html'));
 });
+app.get('/organic-traffic', function(req, res){
+  res.sendFile(path.join(__dirname, 'views/organic-traffic.html'));
+});
+app.get('/website-needs-seo', function(req, res){
+  res.sendFile(path.join(__dirname, 'views/webseo.html'));
+});
+app.get('/website-without-seo', function(req, res){
+  res.sendFile(path.join(__dirname, 'views/withSEO.html'));
+});
+app.get('/seo-ethics', function(req, res){
+  res.sendFile(path.join(__dirname, 'views/SEOethics.html'));
+});
 
 // app.get('*', function(req, res){
 //   res.sendFile(path.join(__dirname, 'views/404.html'));
