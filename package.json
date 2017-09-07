@@ -1,0 +1,24 @@
+{
+  "name": "responsiveweb",
+  "version": "1.0.1",
+  "description": "Exploring more about css",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperac1d/simpleResponsiveWebApp.git"
+  },
+  "author": "MatWizard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyperac1d/simpleResponsiveWebApp/issues"
+  },
+  "homepage": "https://github.com/hyperac1d/simpleResponsiveWebApp#readme"
+}
