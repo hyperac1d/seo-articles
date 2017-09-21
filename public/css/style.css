@@ -23,6 +23,14 @@ p {
   color: #26a69a;
 }
 
+#points {
+  margin-left: 20px;
+}
+#points li {
+  list-style-type: square;
+  margin-left: 20px;
+  
+}
 
 a {
     color: #212121;

@@ -36,6 +36,9 @@ app.get('/website-without-seo', function(req, res){
 app.get('/seo-ethics', function(req, res){
   res.sendFile(path.join(__dirname, 'views/SEOethics.html'));
 });
+app.get('/successful-blog', function(req, res){
+  res.sendFile(path.join(__dirname, 'views/html10.html'));
+});
 
 // app.get('*', function(req, res){
 //   res.sendFile(path.join(__dirname, 'views/404.html'));
